@@ -1,5 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Layout from '../components/layout.vue'
+import Footerr from "../components/Footerr.vue"
+import Banner from "../components/Banner.vue"
+</script>
 <template>
-     <a href="/about"></a>
-    <h1>hola</h1>
+    <layout></layout>
+    <banner></banner>
+    <footerr></footerr>
+     
 </template>
