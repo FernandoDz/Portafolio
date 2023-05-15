@@ -13,8 +13,7 @@ import { ref } from "vue";
 		  <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 dark:text-white">Hi, I am Jose Diaz</h1>
 		  <p class="text-lg sm:text-xl md:text-2xl text-gray-600 mb-8 dark:text-white">Junior Developer</p>
 		  <p class="text-gray-700 mb-12 text-justify dark:text-white">Welcome to my portafolio website! I am a passionate developer who loves creating interactive and engaging web applications. I have experience with Vue.js, React, Node.js, and other modern web technologies. Take a look at my projects and let's create something amazing together.</p>
-		  <button href="https://github.com/FernandoDz" class="bg-slate-500 hover:bg-blue-600 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full transition duration-300">Projects</button>
-		  
+          <a  href="https://github.com/FernandoDz" class="bg-slate-500 hover:bg-blue-600 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full transition duration-300">Projects</a>
 		</div>
 	  </div>
 	</div>

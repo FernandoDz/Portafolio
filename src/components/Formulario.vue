@@ -43,9 +43,9 @@
 <template>
   <div :class="{'dark': estado}">
     <div class="py-16 flex justify-center items-center h-full dark:bg-gray-900">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-slate-500 rounded-lg">
         <div class="flex flex-col justify-center items-center">
-          <h1 class="text-4xl font-bold mb-4 text-center dark:text-white">Contacto</h1>
+          <h3 class="text-4xl font-bold mb-4 text-center dark:text-white">Contacto</h3>
           <p class="text-gray-700 mb-8 text-center dark:text-white">
             Estamos a la disposición de servirte!!
           </p>
@@ -62,6 +62,7 @@
                   name="name"
                   class="w-full px-4 py-2 rounded-lg shadow-sm focus:outline-none focus:shadow-outline-gray"
                   v-model="nombre"
+                  placeholder="Juanito Perez"
                 >
               </div>
             </div>
@@ -77,6 +78,7 @@
                   name="email"
                   class="w-full px-4 py-2 rounded-lg shadow-sm focus:outline-none focus:shadow-outline-gray"
                   v-model="correo"
+                  placeholder="dfer4738@gmail.com"
                 >
               </div>
             </div>
@@ -92,13 +94,14 @@
                   name="message"
                   class="w-full h-32 px-4 py-1 rounded-lg shadow-sm focus:outline-none focus:shadow-outline-gray"
                   v-model="mensaje"
+                  placeholder="Hola necesito de sus servicios"
                 ></textarea>
               </div>
             </div>
             <div class="flex justify-center mt-8">
               <button
                 type="submit"
-                class="bg-slate-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                class="bg-slate-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-1 p-2"
               >Enviar</button>
             </div>
           </form>

@@ -11,7 +11,11 @@ import { ref } from "vue";
           </div>
           <div class="md:col-span-2">
             <h1 class="text-4xl font-bold mb-4 dark:text-white text-center md:text-left">Acerca de mi</h1>
-            <p class="text-gray-700 mb-8 dark:text-white text-center md:text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu lorem et ultricies. In porta lorem at dui semper porttitor. Nullam quis cursus dui. Cras tincidunt vehicula tellus eu facilisis. Donec nisi turpis, iaculis et arcu a, aliquet ultrices nisl. Nam in pharetra odio, ac iaculis libero. </p>
+            <p class="text-gray-700 mb-8 dark:text-white text-center md:text-left">As a software development student, I have demonstrated a deep understanding of fundamental programming concepts and gained experience in various languages and technologies. My innate curiosity and eagerness to learn have kept me up-to-date with the latest trends in software development, and I am always seeking opportunities to expand my knowledge and skills.
+
+In addition, my passion for music has been an integral part of my life for the past eight years. Throughout my journey as a musician, I have explored different styles and genres, which has enriched my artistic perspective. Whether playing an instrument or composing captivating melodies, I have shown great musical dexterity and a keen ear for harmony and melody.
+
+The combination of my software development skills and music experience provides me with a unique and creative perspective. I am capable of approaching challenges innovatively, applying analytical thinking and a meticulous approach to software development projects.</p>
             
             </div>
           </div>
