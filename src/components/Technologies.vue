@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import OhVueIcon from '../plugins/oh-vue-icons';
+import '@animxyz/core'
+
 import { ref } from "vue";
  let estado = ref<boolean>(false)
 </script>
@@ -16,7 +18,8 @@ import { ref } from "vue";
     <oh-vue-icon name='co-vue-js' scale="4" animation="wrench" class="dark:text-white mx-auto my-auto"></oh-vue-icon>
   </div>
 </div>
+  </div>
 
-
-    </div>
 </template>
+<style>
+</style>

@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 
-export const useStore = defineStore({
+export const useDarkStore = defineStore({
   id: 'myStore',
   state: () => ({
     darkMode: false,
@@ -8,6 +8,7 @@ export const useStore = defineStore({
   actions: {
     toggleDarkMode() {
       this.darkMode = !this.darkMode;
+      localStorage.setItem('class', String(this.darkMode))
     },
   },
 });
