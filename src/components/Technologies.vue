@@ -9,7 +9,7 @@ import { ref } from "vue";
 <template>
     <div :class="{'dark': estado}">
     <div class="w-auto h-64 p-5 flex flex-col dark:bg-gray-900 justify-center items-center">
-  <h3 class="text-lg sm:text-xl md:text-2xl text-black mb-8 text-center dark:text-white">Tecnologias</h3>
+  <h3 class="text-lg sm:text-xl md:text-2xl text-black mb-8 text-center dark:text-white">Technologies</h3>
   <div class="flex flex-row flex-5 p-3 m-3 justify-center items-center">
     <oh-vue-icon name='la-html5' scale="4" animation="wrench" class="dark:text-white mx-auto my-auto"></oh-vue-icon>
     <oh-vue-icon name='la-css3-alt' scale="4" animation="wrench" class="dark:text-white mx-auto my-auto"></oh-vue-icon>
