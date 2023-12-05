@@ -1,22 +1,38 @@
 <script setup lang="ts">
-import { ref } from "vue";
- let estado = ref<boolean>(false)
 </script>
 
-
 <template>
-  <div :class="{'dark': estado}" >
-	<div class="flex flex-col items-center justify-center min-h-screen bg-white dark:bg-gray-900">
-	  <div class="flex flex-col sm:flex-row items-center justify-center max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-		<img src="../assets/programing.png" alt="Programing" class="w-full max-w-lg mb-8 sm:mb-0 sm:max-w-xl md:max-w-2xl lg:max-w-lg mr-8">
-		<div class="text-center sm:text-left">
-		  <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 dark:text-white">Hi, I am Jose Diaz</h1>
-		  <p class="text-lg sm:text-xl md:text-2xl text-gray-600 mb-8 dark:text-white">Junior Developer</p>
-		  <p class="text-gray-700 mb-12 text-justify dark:text-white">Welcome to my portafolio website! I am a passionate developer who loves creating interactive and engaging web applications. I have experience with Vue.js, React, Node.js, and other modern web technologies. Take a look at my projects and let's create something amazing together.</p>
-          <a  href="https://github.com/FernandoDz" class="bg-slate-500 hover:bg-blue-600 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full transition duration-300">Projects</a>
-		</div>
-	  </div>
-	</div>
-</div>
+	<div class="bg-white">
+		<div class="relative isolate px-6 pt-14 lg:px-8">
+			<div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+				aria-hidden="true">
+				<div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#4CAF50] to-[#64DD17] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+					style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+				</div>
+			</div>
+			<div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
 
-  </template>
+				<div class="text-center">
+					<h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl m-1">Do you have any idea?
+					</h1>
+					<p class="mt-6 text-lg leading-8 text-gray-600">I specialize in creating websites, systems, and mobile
+						applications of all kinds. Whether you need a modern and responsive website, a robust system
+						tailored to your business needs, or a mobile app that enhances user experience, I've got you
+						covered.</p>
+					<div class="mt-10 flex items-center justify-center gap-x-6">
+						<a href="#"
+							class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">Get
+							started</a>
+						<a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span
+								aria-hidden="true">→</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+				aria-hidden="true">
+				<div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#4CAF50] to-[#64DD17] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+					style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+				</div>
+			</div>
+		</div>
+	</div></template>
